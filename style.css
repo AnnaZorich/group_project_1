@@ -1,3 +1,67 @@
+.header__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 124px;
+    margin-top: 107px;
+    margin-left: 175px;
+    margin-right: 172px;
+    column-gap: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+
+}
+
+.header__top-link,
+.header__top-link-telephone,
+.header__top-link-email {
+    text-decoration: none;
+    color: #000000;
+}
+
+.header__search-logo {
+    position: static;
+    width: 247px;
+    height: 124px;
+    left: 175px;
+    top: 107px;
+
+}
+
+.header__search-button {
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: 459px;
+    top: 183px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+
+
+}
+
+.header__search {
+    display: flex;
+}
+
+.header__search input {
+    display: flex;
+    justify-content: right;
+
+    height: 48px;
+    width: 1075px;
+    left: 673px;
+    top: 183px;
+    border: 1px color #3A3A3A;
+
+
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -5,6 +69,28 @@ body {
 .container {
     margin-left: 170px;
     margin-right: 170px;
+}
+
+.container__baner {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/119104210865\ 1.png);
+    mix-blend-mode: hard-light;
+    ;
+
+
+
+
+}
+
+.container__baner img {
+    height: auto;
+    width: 100%;
+    max-width: 1924px;
+    min-height: 530px;
+    position: relative;
+
+
 }
 
 .order-info {
@@ -159,4 +245,19 @@ body {
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
+}
+
+.feedback-info-otzivi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* width: 100%;
+    justify-content: space-between; */
+}
+
+.feedback-info-otzivi-all {
+
+    height: 485px;
+    width: 498px;
+
 }
