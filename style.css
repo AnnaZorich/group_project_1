@@ -131,7 +131,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .recommended-product {
@@ -146,7 +146,6 @@ body {
     width: 100%;
 }
 
-
 .name {
     font-style: normal;
     font-weight: 400;
@@ -159,4 +158,42 @@ body {
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback__info:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feedback__info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback__info span,
+.feedback__info a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.social-network {
+    color: #2D76A6;
+}
+
+.container__question {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFDF7E;
+    margin-top: 100px;
+    padding: 40px 200px 100px 200px;
+    box-sizing: border-box;
 }
