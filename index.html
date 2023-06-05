@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -16,27 +16,28 @@
 
 <body>
     <header class="header">
-        <nav class="header__top">
-            <a class="header__top-link" href="">О компании</a>
-            <a class="header__top-link" href="">Портфолио</a>
-            <a class="header__top-link" href="">Контакты</a>
-            <a class="header__top-button" href="">заказать</a>
-            <a class="header__top-link-telephone" href="">+7-(499)-999-99-99</a>
-            <a class="header__top-link-email" href="">zakaz@braslet-service.ru</a>
 
-        </nav>
         <div class="header__search">
-            <!-- <div class="header__search-logo"> -->
-            <img src="./assets/Ресурс 9@20x 3.png" alt="Логотип">
-            <!-- </div> -->
-            <!-- <div> -->
-            <button class="header__search-button">каталог</button>
-            <!-- </div> -->
+            <div class="header__search-logo">
+                <img src="./assets/Logo.png" alt="Логотип">
+            </div>
+            <div>
+                <button class="header__search-button">каталог</button>
+            </div>
 
-            <!-- <div class="header__search-input"> -->
-            <input type="text" placeholder="Поиск">
-            <!-- </div> -->
-
+            <div>
+                <nav class="header__top">
+                    <a class="header__top-link" href="">О компании</a>
+                    <a class="header__top-link" href="">Портфолио</a>
+                    <a class="header__top-link" href="">Контакты</a>
+                    <a class="header__top-button" href="">заказать</a>
+                    <a class="header__top-link-telephone" href="">+7-(499)-999-99-99</a>
+                    <a class="header__top-link-email" href="">zakaz@braslet-service.ru</a>
+                </nav>
+                <div class="header__search-input">
+                    <input type="text" placeholder="Поиск">
+                </div>
+            </div>
         </div>
     </header>
 
@@ -50,11 +51,10 @@
 
 
     <main>
+        <div class="container__baner">
+            <img src="./assets/119104210865_1.png" alt="Baner">
+        </div>
         <div class="container">
-            <div class="container__baner">
-                <img src="./assets/119104210865 1.png" alt="Baner">
-
-            </div>
             <div class="order-info">
                 <span>БРЕНДИРОВАННАЯ ПРОДУКЦИЯ - ДОСТАВКА ПО ВСЕЙ РОССИИ И СНГ</span>
             </div>
@@ -128,32 +128,65 @@
                     <span class="recommended-product price">ОТ - 411 ₽</span>
                 </div>
             </div>
-            <div class="feedback-info">
-                <span>ОТЗЫВЫ НАШИХ КЛИЕНТОВ</span>
-                <span>“ВКОНТАКТЕ”</span>
-                <img src="./assets/Ресурс 3@5x24в21 2.png" alt="">
+            <div class="feedback">
+                <div class="feedback__info">
+                    <span>ОТЗЫВЫ НАШИХ КЛИЕНТОВ</span>
+                    <span class="social-network">“ВКОНТАКТЕ”</span>
+                    <img src="./assets/Ресурс 3@5x24в21 2.png" alt="">
+                </div>
+                <div class="feedback__info">
+                    <span>УЖЕ</span>
+                    <span>1116,</span>
+                    <a class="social-network" href="">ЧИТАТЬ ОТЗЫВЫ В НАШЕЙ ГРУППЕ</a>
+                </div>
+            </div>
+        </div>
+        <div class="feedback-info-otzivi">
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_24.png" alt="Отзыв_1">
+            </div>
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_230.png" alt="Jтзыв_2">
+            </div>
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_231.png" alt="Отзыв_3">
+            </div>
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_233.png" alt="Отзыв_4">
+            </div>
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_232.png" alt="Отзыв_5">
+            </div>
+            <div class="feedback-info-otzivi-all">
+                <img src="./assets/Group_233.png" alt="Отзыв_6">
+            </div>
+        </div>
 
-            </div>
-            <div class="feedback-info-otzivi">
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 24.png" alt="Отзыв_1">
+        <div class="container__question">
+            <span>ОСТАЛИСЬ ВОПРОСЫ?</span>
+            <div class="container__question-forms">
+                <div>
+                    <span>ФИО</span>
+                    <span>ТЕЛЕФОН</span>
+                    <input type="text" placeholder="Иванов Иван Иванович">
+                    <input type="text" placeholder="+7-____ -____-___-___">
+                    <textarea name="commemt" id="comment" cols="50" rows="10" placeholder="Комментарии"></textarea>
+
                 </div>
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 230.png" alt="Jтзыв_2">
-                </div>
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 231.png" alt="Отзыв_3">
-                </div>
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 234.png" alt="Отзыв_4">
-                </div>
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 232.png" alt="Отзыв_5">
-                </div>
-                <div class="feedback-info-otzivi-all">
-                    <img src="./assets/Group 233.png" alt="Отзыв_6">
+                <div>
+                    <span>E-MAIL</span>
+                    <input type="text" placeholder="example@yandex.ru">
+                    <button>ОТПРАВИТЬ</button>
+                    <button>ПРИЛОЖИТЬ ФАЙЛЫ</button>
+                    <span></span>
                 </div>
             </div>
+
+
+
+
+
+
         </div>
     </main>
     <footer></footer>
