@@ -31,6 +31,12 @@ img {
 
 }
 
+.header__top-button {
+    width: 207px;
+    height: 39px;
+    border-radius: 20px;
+}
+
 .header__top-link,
 .header__top-link-telephone,
 .header__top-link-email {
@@ -91,6 +97,7 @@ img {
     position: relative;
 
 
+
 }
 
 .order-info {
@@ -134,9 +141,9 @@ img {
     grid-column: 1/2;
 }
 
-.product-card__card-1 img {
-    /* object-fit: fill; */
-}
+/* .product-card__card-1 img { */
+/* object-fit: fill; */
+/* } */
 
 .product-card__card-2 {
     grid-row: 1/2;
