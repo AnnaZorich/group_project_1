@@ -181,25 +181,34 @@
                 <span>ОСТАЛИСЬ ВОПРОСЫ?</span>
             </div>
             <div class="container__question-forms">
-                <div class="container__question-forms-form1">
-                    <span>ФИО</span>
-                    <span>ТЕЛЕФОН</span>
-                    <input type="text" placeholder="Иванов Иван Иванович">
-                    <input type="text" placeholder="+7-____ -____-___-___">
-                    <textarea name="commemt" id="comment" cols="50" rows="10" placeholder="Комментарии"></textarea>
+                <div class="container__question-forms-wrapper">
+                    <div class="container__question-forms-info">
+                        <span>ФИО</span>
+                        <input type="text" placeholder="Иванов Иван Иванович">
+                    </div>
+                    <div class="container__question-forms-info">
+                        <span>ТЕЛЕФОН</span>
+                        <input type="text" placeholder="+7-____ -____-___-___">
+                    </div>
+                    <div class="container__question-forms-info">
+                        <span>E-MAIL</span>
+                        <input type="text" placeholder="example@yandex.ru">
+                    </div>
                 </div>
-                <div class="container__question-forms-form2">
-                    <span>E-MAIL</span>
-                    <input type="text" placeholder="example@yandex.ru">
-                    <button>ПРИЛОЖИТЬ ФАЙЛЫ</button>
-                </div>
-                <div class="container__question-forms-form3">
-                    <button>ОТПРАВИТЬ</button>
-                    <span>Нажимая на кнопку “Отправить”,
-                        Я даю согласие на </span>
-                    <a href="">обработку персональных данных</a>
+                <div class="container__question-forms-wrapper">
+                    <textarea name="commemt" id="comment" cols="90" rows="10" placeholder="Комментарии"></textarea>
+                    <button class="add-files">ПРИЛОЖИТЬ ФАЙЛЫ</button>
+                    <div class="push-info">
+                        <button class="push">ОТПРАВИТЬ</button>
+                        <div clas="agree">
+                            <span>Нажимая на кнопку “Отправить”,
+                                Я даю согласие на </span>
+                            <a href="">обработку персональных данных</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
     <footer class="footer">
