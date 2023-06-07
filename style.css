@@ -224,7 +224,6 @@ img {
 .recommended-product {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 23%;
     min-width: 200px;
     gap: 20px;
@@ -234,14 +233,13 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 20px; */
 }
 
 .recommended-product-price {
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    /* line-height: 30px; */
+    margin-top: auto;
 }
 
 .feedback {
@@ -360,7 +358,7 @@ img {
 }
 
 .contacts button {
-    width: 297px;
+    width: 100%;
     height: 55px;
     border-radius: 20px;
     border: 2px solid #FFFFFF;
